@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyPMS</title>
+    <link rel="icon" type="image/jpeg" href="avatar.jpg">
+    <style>
+        h2, h4 {
+            text-align: center;
+        }
+        img {
+            max-width: 150px;
+            width: 80%;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 8px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            background-color: whitesmoke;
+            margin: 0px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 10px;
+            flex-wrap:wrap;
+        }
+        .mt-40 {
+            margin-top: 40px;
+        }
+        .mt-5 {
+            margin-top: 5px;
+        }
+        p {
+            background-color: rgb(199, 235, 126);
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
+        .flex-container div {
+            width: 120px;
+            height: 120px;
+            border-radius: 8px;
+        }
+        .flex-container div h4 {
+            margin: 5px auto 5px auto;
+        }
+        a {
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+        }
+        .p-5 {
+            padding: 5px;
+        }
+        .p-10 {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <div class="flex-container mt-40">
+        <img src="avatar.jpg" alt="avatar">
+    </div>
+    <div class="flex-container p-10">
+        <p>
+            Xin chào mọi người!<br>
+            Mình là scratcher aka hypms.<br>
+            Mình thích xem phim hoạt hình Hà Nhân và lập trình lung tung.<br>
+            Cảm ơn các bạn đã ủng hộ mình nha.
+        </p>
+    </div>
+    <div class="flex-container mt-40">
+        <div class="flex-container">
+            <img src="youtube-2-logo-svgrepo-com.svg" alt="avatar" class="mt-5 p-5">
+            <a href="https://www.youtube.com/@hypmsbak">Youtube</a>
+        </div>
+        <div class="flex-container">
+            <img src="tiktok-svgrepo-com.svg" alt="avatar" class="mt-5">
+            <a href="https://www.tiktok.com/@scratcher.dev">Tiktok</a>
+        </div>
+        <div class="flex-container">
+            <img src="facebook-svgrepo-com.svg" alt="avatar" class="mt-5">
+            <a href="https://www.facebook.com/scratchakahypms/">Facebook</a>
+        </div>
+    </div>
 </body>
 </html>
